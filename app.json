@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "QR-ATT",
+    "slug": "qr-att-sky",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.qratt.sky",
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0EA5E9"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.qratt.sky"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "QR-ATT needs the camera to scan event QR codes."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "backgroundColor": "#0369A1",
+          "imageWidth": 220
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#0EA5E9"
+        }
+      ],
+      "expo-asset",
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "icon": "./assets/icon.png",
+    "extra": {
+      "eas": {
+        "projectId": "6f18763b-875c-4afd-a805-339b23c5feb7"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cli": {
+    "version": ">= 12.0.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://ernpqwbtmbvhiszzkhus.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_KEY": "sb_publishable_5iPB4lOw6SPseITaoh3ScA_TsHLGAud"
+      }
+    }
+  }
+}
